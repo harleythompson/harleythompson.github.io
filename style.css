@@ -1,0 +1,29 @@
+html { visibility:hidden; }
+
+.headline {
+margin-left: 5px;
+font-family:Times;
+font-style: italic;
+font-size: 2vw;
+font-weight: light;
+line-height: .5em;
+color: black;
+}
+
+h1:after
+{
+    content:' ';
+    display:block;
+    border:.5px solid black;
+}
+
+div { 
+padding-top: 1.5%;
+padding-bottom: 2%;
+margin-left: 2%;
+margin-right: 1%;
+background-color: clear;
+font-size: 7.5vw;
+font-family:Times;
+font-style: italic;
+}
